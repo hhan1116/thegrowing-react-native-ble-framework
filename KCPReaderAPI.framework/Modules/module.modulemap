@@ -1,0 +1,11 @@
+framework module KCPReaderAPI {
+  umbrella header "KCPReaderAPI.h"
+
+  export *
+  module * { export * }
+}
+
+module KCPReaderAPI.Swift {
+    header "KCPReaderAPI-Swift.h"
+    requires objc
+}
